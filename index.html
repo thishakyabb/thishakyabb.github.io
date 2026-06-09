@@ -3,110 +3,295 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thishakya Bandara</title>
+
+  <title>Thishakya Bandara | FPGA & Computer Architecture</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <div class="container">
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">Thishakya Bandara</a>
 
-    <aside class="sidebar">
-      <img src="assets/profile.jpg" alt="Profile photo" class="profile-img" />
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Thishakya_Bandara_CV.pdf" target="_blank" class="cv-button">CV</a>
+      </nav>
+    </div>
+  </header>
 
-      <h1>Thishakya Bandara</h1>
-      <p class="subtitle">FPGA | RTL Design | Computer Architecture</p>
+  <!-- Hero Section -->
+  <main id="home">
 
-      <p class="bio">
-        Electronic and Telecommunication Engineering graduate focused on FPGA design,
-        RTL design, RISC-V architecture, hardware accelerators, and embedded systems.
-      </p>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">FPGA · RTL Design · Computer Architecture</p>
 
-      <div class="links">
-        <a href="mailto:thishakyabandara@gmail.com">Email</a>
-        <a href="https://github.com/thishakyabb" target="_blank">GitHub</a>
-        <a href="assets/Thishakya_Bandara_CV.pdf" target="_blank">Download CV</a>
+        <h1>
+          Building high-performance digital systems with
+          FPGA, RISC-V, and hardware accelerators.
+        </h1>
+
+        <p class="hero-description">
+          I am an Electronic and Telecommunication Engineering graduate focused on
+          FPGA design, RTL design, ASIC/FPGA implementation, RISC-V architecture,
+          embedded systems, and hardware accelerator design.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="primary-button">Explore Projects</a>
+          <a href="assets/Thishakya_Bandara_CV.pdf" target="_blank" class="secondary-button">Download CV</a>
+        </div>
       </div>
-    </aside>
 
-    <main class="content">
+      <aside class="profile-card">
+        <img src="assets/profile.jpeg" alt="Profile photo of Thishakya Bandara" />
 
-      <section>
-        <h2>About Me</h2>
-        <p>
-          I am interested in FPGA/ASIC design, computer architecture, RISC-V systems,
-          hardware accelerators, and embedded system development. My work includes
-          FPGA-based DSP systems, RFSoC development, SoC design, and custom hardware projects.
+        <h2>Thishakya Bandara</h2>
+        <p class="role">FPGA / RTL / Embedded Systems Engineer</p>
+
+        <p class="profile-text">
+          Interested in reconfigurable computing, RISC-V systems,
+          FPGA-based DSP, RFSoC, and hardware/software co-design.
         </p>
-      </section>
 
-      <section>
+        <div class="profile-links">
+          <a href="mailto:thishakyabandara@gmail.com">Email</a>
+          <a href="https://github.com/thishakyabb" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">LinkedIn</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Highlights -->
+    <section class="section">
+      <div class="section-heading">
+        <p class="section-label">Highlights</p>
+        <h2>Recent Highlights</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="date">2025</span>
+          <p>
+            Completed research internship at the National University of Singapore,
+            working on FPGA-based AI hardware acceleration and vector database indexing.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="date">2025</span>
+          <p>
+            Designed FPGA-based DSP and control logic for a modular spectrum analyzer
+            using Zynq, ADC interfacing, SPI control, BRAM, DDR, and Python analysis.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="date">2023</span>
+          <p>
+            1st Runner-Up at DVCon India RISC-V Design & Verification Contest,
+            working on a low-power RISC-V SoC for edge ML applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Focus -->
+    <section id="research" class="section two-column">
+      <div>
+        <p class="section-label">Research Focus</p>
+        <h2>Myself and My Technical Focus</h2>
+      </div>
+
+      <div>
+        <p>
+          My main interests are RTL design, FPGA/ASIC implementation, computer
+          architecture, RISC-V processors, and hardware accelerator design.
+          I enjoy building digital systems that combine hardware design,
+          embedded software, and practical system-level integration.
+        </p>
+
+        <p>
+          My work includes FPGA-based signal processing, RFSoC development,
+          high-speed interfaces, SoC architecture, hardware/software co-design,
+          custom PCB-based embedded systems, and processor acceleration.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <div class="section-heading">
+        <p class="section-label">Skills</p>
         <h2>Technical Skills</h2>
-        <ul>
-          <li><strong>HDL:</strong> SystemVerilog, Verilog, VHDL</li>
-          <li><strong>FPGA Tools:</strong> Vivado, Vitis, Zynq, RFSoC, AXI, XDMA</li>
-          <li><strong>Embedded:</strong> C, C++, Python, STM32, ESP32</li>
-          <li><strong>Hardware:</strong> PCB design, Altium, SPI, I2C, UART, CAN, Ethernet</li>
-          <li><strong>Interests:</strong> RTL design, RISC-V, computer architecture, hardware accelerators</li>
-        </ul>
-      </section>
+      </div>
 
-      <section>
-        <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>HDL / RTL</h3>
+          <p>SystemVerilog, Verilog, VHDL, testbenches, FSM design, datapath design, simulation.</p>
+        </div>
 
-        <h3>FPGA-Based Spectrum Analyzer</h3>
-        <p>
-          Designed the digital signal processing and FPGA control system for a modular
-          spectrum analyzer, including ADC interfacing, VCO control, SPI programming,
-          BRAM/DDR data movement, and RMS computation.
-        </p>
+        <div class="card">
+          <h3>FPGA Platforms</h3>
+          <p>AMD/Xilinx Vivado, Vitis, Zynq, RFSoC, AXI, XDMA, BRAM, DDR, RFDC.</p>
+        </div>
 
-        <h3>RISC-V SoC and Hardware Accelerator</h3>
-        <p>
-          Worked on improving a RISC-V based low-power SoC for machine learning edge
-          applications, including RTL design, accelerator integration, and performance evaluation.
-        </p>
+        <div class="card">
+          <h3>Embedded Systems</h3>
+          <p>C, C++, Python, STM32, ESP32, Raspberry Pi, SPI, I2C, UART, CAN, Ethernet.</p>
+        </div>
 
-        <h3>Array / Vector Processor SoC</h3>
-        <p>
-          Designed and implemented an SoC with an array/vector processor for matrix operations
-          on ZedBoard, including PS-PL communication and DRAM-based data handling.
-        </p>
+        <div class="card">
+          <h3>Hardware Design</h3>
+          <p>PCB design, Altium Designer, ADC/DAC interfacing, power design, mixed-signal systems.</p>
+        </div>
+      </div>
+    </section>
 
-        <h3>AMBA AHB System</h3>
-        <p>
-          Designed an AMBA AHB bus arbiter and slave interfaces, and implemented communication
-          between two AHB systems using SPI on FPGA.
-        </p>
-      </section>
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="section-label">Projects</p>
+        <h2>Selected Projects</h2>
+      </div>
 
-      <section>
+      <div class="project-list">
+
+        <article class="project">
+          <h3>FPGA-Based Spectrum Analyzer</h3>
+          <p>
+            Designed the FPGA digital processing and control system for a modular spectrum analyzer.
+            Work included ADC interfacing, VCO/SPI programming, BRAM/DDR data movement,
+            RMS computation, and Python-based signal analysis.
+          </p>
+          <div class="tags">
+            <span>FPGA</span>
+            <span>Zynq</span>
+            <span>DSP</span>
+            <span>SPI</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>RISC-V SoC and Hardware Accelerator</h3>
+          <p>
+            Worked on a low-power RISC-V based SoC for machine learning edge applications,
+            including RTL design, accelerator integration, and performance evaluation.
+          </p>
+          <div class="tags">
+            <span>RISC-V</span>
+            <span>RTL</span>
+            <span>SoC</span>
+            <span>ML Accelerator</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>Array / Vector Processor SoC</h3>
+          <p>
+            Designed an SoC with an array/vector processor for matrix operations.
+            Implemented the architecture on ZedBoard with PS-PL communication and DRAM-based data handling.
+          </p>
+          <div class="tags">
+            <span>Vector Processor</span>
+            <span>ZedBoard</span>
+            <span>Vitis</span>
+            <span>Matrix Operations</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>AMBA AHB System</h3>
+          <p>
+            Designed an AMBA AHB bus arbiter and slave interfaces, and implemented
+            communication between two AHB systems through SPI on FPGA.
+          </p>
+          <div class="tags">
+            <span>AMBA AHB</span>
+            <span>FPGA</span>
+            <span>SPI</span>
+            <span>Bus Design</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section two-column">
+      <div>
+        <p class="section-label">Experience</p>
         <h2>Experience</h2>
+      </div>
 
-        <h3>Research Intern — National University of Singapore</h3>
+      <div class="experience-list">
+        <div class="experience-item">
+          <h3>Research Intern — National University of Singapore</h3>
+          <p>
+            Worked on FPGA-based AI hardware accelerators, vector embedding,
+            vector database indexing, and high-speed FPGA networking.
+          </p>
+        </div>
+
+        <div class="experience-item">
+          <h3>FPGA / Embedded / PCB Projects</h3>
+          <p>
+            Developed multiple FPGA and embedded systems involving Zynq, RFSoC,
+            STM32, ESP32, custom PCBs, high-speed interfaces, and communication protocols.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <div class="section-heading">
+        <p class="section-label">Publications</p>
+        <h2>Publications and Research Interests</h2>
+      </div>
+
+      <div class="card">
         <p>
-          Worked on FPGA-based AI hardware accelerators, vector embedding, vector database
-          indexing, and high-speed FPGA networking.
+          Add your research papers, conference submissions, final year project publications,
+          or preprints here. You can also list research interests such as computer architecture,
+          FPGA acceleration, RISC-V systems, and hardware/software co-design.
         </p>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2>Education</h2>
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="section-label">Contact</p>
+        <h2>Let’s Connect</h2>
         <p>
-          <strong>BSc in Electronic and Telecommunication Engineering</strong><br />
-          Major: Electronic and Telecommunication Engineering<br />
-          Minor: Mathematics
+          I am interested in FPGA, RTL design, ASIC/FPGA implementation,
+          RISC-V, embedded systems, and hardware accelerator opportunities.
         </p>
-      </section>
+      </div>
 
-      <section>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:thishakyabandara@gmail.com">thishakyabandara@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/thishakyabb" target="_blank">github.com/thishakyabb</a></p>
-      </section>
+      <div class="contact-card">
+        <p><strong>Email:</strong> <a href="mailto:thishakyabandara@gmail.com">thishakyabandara@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/thishakyabb" target="_blank">github.com/thishakyabb</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">Add your LinkedIn</a></p>
+      </div>
+    </section>
 
-    </main>
+  </main>
 
-  </div>
+  <footer>
+    <p>© 2026 Thishakya Bandara. Built with GitHub Pages.</p>
+  </footer>
 
 </body>
 </html>
